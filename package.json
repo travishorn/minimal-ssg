@@ -1,0 +1,44 @@
+{
+  "name": "minimal-ssg",
+  "version": "0.1.0",
+  "description": "A minimal static site generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "generate": "node index.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "keywords": [
+    "ssg",
+    "static",
+    "site",
+    "generator",
+    "html"
+  ],
+  "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travishorn/minimal-ssg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/travishorn/minimal-ssg/issues"
+  },
+  "homepage": "https://github.com/travishorn/minimal-ssg#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "marked": "^13.0.3"
+  }
+}

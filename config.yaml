@@ -1,0 +1,4 @@
+siteTitle: My Site
+language: en
+inputDir: ./content
+outputDir: ./public
